@@ -1,0 +1,229 @@
+{
+  "manifestVersion": "3.2",
+  "impls": {
+    "4e39db47badb9a3517d459e7718e5172a215bbe141df4f682ca7f727953d0eb0": {
+      "address": "0x7B23D539E338eDC4360Eb6088A7EB35628E310D0",
+      "txHash": "0x7bda52c173b84f525faac857d0e055bad0bb33984717cbf7bd1efcf3c055ab73",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "3760fba159883bd1134c30d19849294a2089b9b8afdf56badcb3f7a2a38fd2aa": {
+      "address": "0x5d46359D086996CfB260Dfe618C68b99459a5954",
+      "txHash": "0xd289b3459a26b4cd0103b9b02c26a427c92768940899db8d6227ef3be2ad2b50",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "e0c889cb18ad308abd9ec653d49ca25b746531c9ddc7deb9dac05773697bda17": {
+      "address": "0xd6a0c791ee965ead058Eb04fb3841690DF1D34BF",
+      "txHash": "0x2deae361dd2cc439b789943f438105221838b7f7ad6a90080eaaaec1325c43e3",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "Box.sol:8"
+          },
+          {
+            "contract": "Box",
+            "label": "fToken",
+            "type": "t_contract(FTokenInterface)104",
+            "src": "Box.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(FTokenInterface)104": {
+            "label": "contract FTokenInterface"
+          }
+        }
+      }
+    },
+    "ccf796f325704f812a9340be07014bd98c90d510e11d1863e7d41ccf5d9da9f0": {
+      "address": "0x3c77c2d197d196A00C9367A23270F655acE83a32",
+      "txHash": "0x0e795c9b4ad9e4774dce2e5e3ccfb1976a366c34671ab5869b22f428b3883c4c",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/Initializable.sol:30"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "governance",
+            "type": "t_address",
+            "src": "SavingsPool.sol:16"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningIndex",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:27"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningBlock",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:28"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "startBlock",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:29"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningToken",
+            "type": "t_address",
+            "src": "SavingsPool.sol:30"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "saverMiningIndex",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:31"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "saverMiningAccrued",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:32"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "underlyingAsset",
+            "type": "t_address",
+            "src": "SavingsPool.sol:34"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "fToken",
+            "type": "t_address",
+            "src": "SavingsPool.sol:35"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningSpeed",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:36"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "depositTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:38"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "redeemFeeConfig",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "SavingsPool.sol:39"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "feeAmount",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:40"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "totalFee",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:41"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "fTokenBalances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "proxies": [
+    {
+      "address": "0xce4Af2f70682074B4c3525ADf319752835fd04b8",
+      "kind": "transparent",
+      "txHash": "0x70b52b27d1b2461e07c3c12c6238edd8a2d59d7fbc52af5a0499b543b217b226"
+    },
+    {
+      "address": "0x764c760297615ff1F82F23a2a9Cf64F2F499B115",
+      "kind": "transparent",
+      "txHash": "0x6e03b7953b347e875919c5920b019481ecc99f206fbc17a9051834e0523447b7"
+    },
+    {
+      "address": "0x3d213b5D38Df541E9400824EB149E71E97830544",
+      "kind": "transparent",
+      "txHash": "0x65f2b51e728a9976522c111038c6d6fb6d76d813d3f84daa35e061190a0b29b6"
+    },
+    {
+      "address": "0x84f141e27d03F5f0517ee439cadE57D21881285b",
+      "kind": "transparent",
+      "txHash": "0xf71488654d1ab9347edb559822bf67c862ee77f8a55c6f625f0e9cee21fd6c28"
+    },
+    {
+      "address": "0x48f28B9F73712DeE866C0787610933ED7B88BE53",
+      "kind": "transparent",
+      "txHash": "0x1ce2e55d28cccc8bcee696f7780087fb1d5da034ca774a1cfe5c0ed365ad3694"
+    }
+  ],
+  "admin": {
+    "address": "0xeD2b891C04f53Cb6D2591A8dc4f0fC180638f986",
+    "txHash": "0x2ce883239403afa53901132843692c2d1f30882719da396f715ab80f1544e968"
+  }
+}

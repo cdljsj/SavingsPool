@@ -1,0 +1,12 @@
+build/
+node_modules/
+.idea/
+.secret
+.env
+.build
+.scencache
+.solcache
+junit.xml
+scenario/.tsbuilt/
+scenario/.tscache
+

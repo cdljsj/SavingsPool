@@ -1,0 +1,275 @@
+{
+  "manifestVersion": "3.2",
+  "impls": {
+    "ccf796f325704f812a9340be07014bd98c90d510e11d1863e7d41ccf5d9da9f0": {
+      "address": "0x0c23B6294AB3A873426139Ebb3055d2CCB5bEbE8",
+      "txHash": "0x3db77520b8b75a2d54dfcc3b9df38d22f500e1dfb8c6a247365d94ac7a57afe4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/Initializable.sol:30"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "governance",
+            "type": "t_address",
+            "src": "SavingsPool.sol:16"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningIndex",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:27"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningBlock",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:28"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "startBlock",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:29"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningToken",
+            "type": "t_address",
+            "src": "SavingsPool.sol:30"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "saverMiningIndex",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:31"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "saverMiningAccrued",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:32"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "underlyingAsset",
+            "type": "t_address",
+            "src": "SavingsPool.sol:34"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "fToken",
+            "type": "t_address",
+            "src": "SavingsPool.sol:35"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningSpeed",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:36"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "depositTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:38"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "redeemFeeConfig",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "SavingsPool.sol:39"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "feeAmount",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:40"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "totalFee",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:41"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "fTokenBalances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "4e103e13dd700d9ec297a455abc7d12b39a724bd277740e925b5eb611fe729e1": {
+      "address": "0x248E74EAa9398360eAE64CDC29Baed32f0C396b6",
+      "txHash": "0x7b76c19e36312f9f2338ee9eb9668e76877e53b474ceee53afdfc5588fac5e74",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/Initializable.sol:30"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "governance",
+            "type": "t_address",
+            "src": "SavingsPool.sol:16"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningIndex",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:27"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningBlock",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:28"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "startBlock",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:29"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningToken",
+            "type": "t_address",
+            "src": "SavingsPool.sol:30"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "saverMiningIndex",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:31"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "saverMiningAccrued",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:32"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "underlyingAsset",
+            "type": "t_address",
+            "src": "SavingsPool.sol:34"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "fToken",
+            "type": "t_address",
+            "src": "SavingsPool.sol:35"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "miningSpeed",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:36"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "depositTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:38"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "redeemFeeConfig",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "SavingsPool.sol:39"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "feeAmount",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:40"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "totalFee",
+            "type": "t_uint256",
+            "src": "SavingsPool.sol:41"
+          },
+          {
+            "contract": "SavingsPool",
+            "label": "fTokenBalances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "SavingsPool.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "proxies": [
+    {
+      "address": "0xD2D772dB274eF24A480Ef9f23d910837a9c7fbd3",
+      "kind": "transparent",
+      "txHash": "0x1d3e0e1bc2e21d3e26009fd2f13b15ff25b01bb54453d591896301191480326c"
+    },
+    {
+      "address": "0x6c574817000293fbD64dcFA9896429e7CC586766",
+      "kind": "transparent",
+      "txHash": "0xf4edd6663d30e81bf280ed6b42d2a7f63727548386a9235ce19c43dc1bbbd907"
+    }
+  ],
+  "admin": {
+    "address": "0xa5FF84d95D3bd49da4BfB6a9dd1cDf0bA86Ad92f",
+    "txHash": "0x95e95df734a12a3da9ed952e5741962284abcbcaad7f015632e5f66e30f6aa90"
+  }
+}

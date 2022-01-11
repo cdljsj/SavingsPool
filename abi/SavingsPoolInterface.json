@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "tokenHolder",
+        "type": "address"
+      }
+    ],
+    "name": "claimMiningToken",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

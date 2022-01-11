@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "holder",
+        "type": "address"
+      },
+      {
+        "internalType": "address[]",
+        "name": "savingsPools",
+        "type": "address[]"
+      }
+    ],
+    "name": "claimMiningToken",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
